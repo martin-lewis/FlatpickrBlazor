@@ -35,6 +35,11 @@
         var parsedDates = dates.map(date => new Date(date));
         element._flatpickr.setDate(parsedDates, triggerChange, dateStrFormat);
     },
+    clear: function (element) {
+        element = this.__getElement(element);
+        element._flatpickr.clear();
+        dotNetHelper.invokeMethodAsync("OnChange", null);
+    },
     __getElement: function(element) {
         // .NET can return either an element itself, or its string id
         return this.__isString(element) ? document.getElementById(element) : element;

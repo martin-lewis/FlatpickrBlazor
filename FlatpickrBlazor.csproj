@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -15,7 +15,7 @@
     <Authors>Mathis Logemann</Authors>
     <Company>WebTechnologies</Company>
     <Description>Makes use of https://github.com/flatpickr/flatpickr</Description>
-    <Version>5.0.8</Version>
+    <Version>5.0.10</Version>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </PropertyGroup>
 

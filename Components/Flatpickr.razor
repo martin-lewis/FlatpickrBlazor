@@ -206,4 +206,9 @@
         await JSRuntime.InvokeVoidAsync(
                 "flatpickrblazor.setDate", InputReference, date, triggerChange, dateStrFormat);
     }
+
+    public async Task ClearAsync()
+    {
+        await JSRuntime.InvokeVoidAsync("flatpickrblazor.clear", InputReference);
+    }
 }
