@@ -1,10 +1,16 @@
 # FlatPickr Blazor
 
+# ML Development Notes
+
+- Change the blazor component in the Flatpickr.razor file
+- If additional functionality from the underlying JavaScript then add it to the flatpickr.blazor.js
+- Build into nuget package and deploy
+
 uses https://github.com/flatpickr/flatpickr under the hood. 
 
 ## For a ready to use example, visit https://github.com/mathisloge/FlatpickrBlazorExample
 
-Nuget Version is availible under https://www.nuget.org/packages/FlatPickrBlazor
+Nuget Version is available under https://www.nuget.org/packages/FlatPickrBlazor
 
 	Install-Package FlatPickrBlazor
 
@@ -68,7 +74,7 @@ to add a locale (specify in your FlatpickrOptions variable) add the following sc
 
 	<script src="_content/FlatpickrBlazor/l10n/de.js"></script>
 
-and change the "de.js" with your choosed language
+and change the "de.js" with your chosen language
 
 to add the plugins, you have to include the script and style files. e.g. for the month select plugin: 
 
