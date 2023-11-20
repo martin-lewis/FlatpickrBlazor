@@ -1,10 +1,10 @@
-# FlatPickr Blazor
-
 # ML Development Notes
 
 - Change the blazor component in the Flatpickr.razor file
 - If additional functionality from the underlying JavaScript then add it to the flatpickr.blazor.js
-- Build into nuget package and deploy
+- Build into Nuget package and deploy
+
+# FlatPickr Blazor
 
 uses https://github.com/flatpickr/flatpickr under the hood. 
 
